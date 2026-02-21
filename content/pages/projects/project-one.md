@@ -1,29 +1,44 @@
 ---
 type: ProjectLayout
-title: A very cool code project
+title: AI Prostate Cancer Detection with mpMRI
 colors: colors-a
-date: '2021-10-15'
-client: Awesome client
+date: '2024-06-01'
+client: Bachelor Thesis
 description: >-
-  It’s hard to imagine that I’ve that I wrote all this code by myself, probably because I worked with an entire team :) but they definitely followed my lead most of the time.
+  Built and evaluated a machine-learning pipeline for prostate cancer detection using
+  multiparametric MRI (mpMRI), focusing on robust preprocessing and clinically meaningful evaluation.
 featuredImage:
   type: ImageBlock
   url: /images/bg1.jpg
-  altText: Project thumbnail image
+  altText: Prostate cancer detection project thumbnail
 media:
   type: ImageBlock
   url: /images/bg1.jpg
-  altText: Project image
+  altText: Multiparametric MRI project image
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ante lorem, tincidunt ac leo efficitur, feugiat tempor odio. Curabitur at auctor sapien. Etiam at cursus enim. Suspendisse sed augue tortor. Nunc eu magna vitae lorem pellentesque fermentum. Sed in facilisis dui. Nulla molestie risus in mi dapibus, eget porta lorem semper. Donec sed facilisis nibh. Curabitur eget dui in libero euismod commodo nec sit amet est. Etiam id ipsum aliquam, vehicula erat sit amet, consequat tortor.
+## Overview
+For my bachelor thesis, I explored how machine learning can support **prostate cancer detection** using **multiparametric MRI (mpMRI)**.
+The goal was to build and evaluate an end-to-end pipeline that learns from imaging data and produces reliable predictions that can
+support clinical decision-making.
 
-Etiam facilisis lacus nec pretium lobortis. Praesent dapibus justo non efficitur efficitur. Nullam viverra justo arcu, eget egestas tortor pretium id. Sed imperdiet mattis eleifend. Vivamus suscipit et neque imperdiet venenatis. In malesuada sed urna eget vehicula. Donec fermentum tortor sit amet nisl elementum fringilla. Pellentesque dapibus suscipit faucibus. Nullam malesuada sed urna quis rutrum. Donec facilisis lorem id maximus mattis. Vestibulum quis elit magna. Vestibulum accumsan blandit consequat. Phasellus quis posuere quam.
+## What I did
+- **Data understanding & preparation:** worked with mpMRI data and corresponding labels; organized data structures for model training.
+- **Preprocessing pipeline:** cleaning and standardization steps to make the input consistent and suitable for ML.
+- **Model training & evaluation:** trained and compared models, focusing on performance metrics that matter for medical classification.
+- **Error analysis:** investigated failure cases and potential causes (data quality, class imbalance, generalization limits).
+- **Documentation:** wrote up the approach, experiments, and results in a thesis report.
 
-> “Everybody should learn to program a computer, because it teaches you how to think.”
+## Tech stack
+- Python (NumPy / pandas)
+- Machine learning (scikit-learn / deep learning framework if applicable)
+- Data processing & experimentation workflows
 
-Vestibulum ullamcorper risus auctor eleifend consequat. Vivamus mollis in tellus ac ullamcorper. Vestibulum sit amet bibendum ipsum, vitae rutrum ex. Nullam cursus, urna et dapibus aliquam, urna leo euismod metus, eu luctus justo mi eget mauris. Proin felis leo, volutpat et purus in, lacinia luctus eros. Pellentesque lobortis massa scelerisque lorem ullamcorper, sit amet elementum nulla scelerisque. In volutpat efficitur nulla, aliquam ornare lectus ultricies ac. Mauris sagittis ornare dictum. Nulla vel felis ut purus fermentum pretium. Sed id lectus ac diam aliquet venenatis. Etiam ac auctor enim. Nunc velit mauris, viverra vel orci ut, egestas rhoncus diam. Morbi scelerisque nibh tellus, vel varius urna malesuada sed. Etiam ultricies sem consequat, posuere urna non, maximus ex. Mauris gravida diam sed augue condimentum pulvinar vel ac dui. Integer vel convallis justo.
+## Outcome
+- A documented pipeline + experiments demonstrating the feasibility of ML-based classification on mpMRI data.
+- Practical insights into dataset limitations, evaluation strategy, and what would be needed to move toward clinical use.
 
-Nam rutrum magna sed pellentesque lobortis. Etiam quam mauris, iaculis eget ex ac, rutrum scelerisque nisl. Cras finibus dictum ex sed tincidunt. Morbi facilisis neque porta, blandit mauris quis, pharetra odio. Aliquam dictum quam quis elit auctor, at vestibulum ex pulvinar. Quisque lobortis a lectus quis faucibus. Nulla vitae pellentesque nibh, et fringilla erat. Praesent placerat ac est at tincidunt. Praesent ultricies a ex at ultrices. Etiam sed tincidunt elit. Nulla sagittis neque neque, ultrices dignissim sapien pellentesque faucibus. Donec tempor orci sed consectetur dictum. Ut viverra ut enim ac semper. Integer lacinia sem in arcu tempor faucibus eget non urna. Praesent vel nunc eu libero aliquet interdum non vitae elit. Maecenas pharetra ipsum dolor, et iaculis elit ornare ac.
-
-Aenean scelerisque ullamcorper est aliquet blandit. Donec ac tellus enim. Vivamus quis leo mattis, varius arcu at, convallis diam. Donec ac leo at nunc viverra molestie ac viverra nisi. Proin interdum at turpis at varius. Nunc sit amet ex suscipit, convallis ligula eu, pretium turpis. Sed ultricies neque vel mi malesuada, et mollis risus lobortis. Sed condimentum venenatis mauris, id elementum dolor gravida ac. Sed sodales tempus neque, quis iaculis arcu tincidunt ut. Donec vitae faucibus dui. In hac habitasse platea dictumst. Donec erat ex, ullamcorper a massa a, porttitor porta ligula.
+## What I’d improve next
+- Stronger generalization testing
+- Better handling of class imbalance and calibration
+- More explainability for clinical interpretability
