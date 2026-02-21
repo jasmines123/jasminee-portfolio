@@ -16,7 +16,7 @@ sections:
     title: >-
       Jasmine Alani - Junior Developer
     subtitle: >-
-      Analytically driven developer with experience in APIs, cloud (AWS), and machine learning. Scroll for projects and contact.
+      Analytically driven developer with experience in medicial imaging, machine learning, APIs and cloud (AWS). Scroll for projects and contact.
     styles:
       self:
         height: auto
