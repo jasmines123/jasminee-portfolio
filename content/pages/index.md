@@ -14,7 +14,7 @@ sections:
     colors: colors-f
     backgroundSize: full
     title: >-
-      Jasmine Alani - Computer Science Graduate (AI & Software Development)
+      Jasmine Alani - Junior Developer
     subtitle: >-
       Analytically driven developer with experience in APIs, cloud (AWS), and machine learning. Scroll for projects and contact.
     styles:
